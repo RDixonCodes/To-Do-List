@@ -6,7 +6,7 @@ const todoList = document.getElementById('todo-list')
 const addTask = () => {
     const taskText = todoInput.value.trim();
 
-    if(taskText !== ' ' ) {
+    if(taskText !== '' ) {
         const taskItem = createTaskItem(taskText);
         todoList.appendChild(taskItem);
         todoInput.value = '';
