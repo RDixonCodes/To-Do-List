@@ -73,8 +73,8 @@ h1 {
 }
 
 .todo-item.completed {
-    text-decoration: line-through 2px black !important;
-    -webkit-text-decoration: line-through 2px black !important;
-    
+    text-decoration: line-through 2px black;
+    text-decoration-line: line-through 2px black;
+    -webkit-text-decoration-line: line-through;
     opacity: 0.7;
 }
