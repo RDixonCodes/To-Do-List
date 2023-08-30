@@ -75,6 +75,9 @@ h1 {
 .todo-item.completed {
     text-decoration: line-through 2px black;
     text-decoration-line: line-through 2px black;
-    -webkit-text-decoration-line: line-through;
+    -webkit-text-decoration-line: line-through !important;
+    -webkit-text-decoration-line-color: black !important;
+    -webkit-text-decoration-line-style: solid !important;
+    -webkit-text-decoration-line-thickness: 2px !important;
     opacity: 0.7;
 }
